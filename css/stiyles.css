@@ -1,1 +1,15 @@
-body {}
+body {
+    background-color: #fff;
+    color: #757575;
+}
+/*logo*/
+.logo-link{
+    color:#000000;
+}
+.logo-header {
+    color: #2196F3;
+}
+/*Site nav*/
+.site-nav a {
+
+}
