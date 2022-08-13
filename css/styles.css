@@ -9,6 +9,9 @@ body {
 .logo-header {
     color:#000000 ;
 }
+.logo-link:hover {
+    color: #212121
+}
 /*Site nav*/
 .site-nav .link {
     color: #212121;
