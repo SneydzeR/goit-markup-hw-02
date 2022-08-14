@@ -8,18 +8,16 @@
 body {
     background-color:var(--primary-white-color);
     color: var(--primary-text);
-    font-family: Roboto,sans-serif;
+    font-family: 'Roboto',sans-serif;
     letter-spacing: 0.03em
 }
  /*WebStudio*/
 .logo-link{
     color:var(--accent-color);
-    font-family: Raleway,sans-serif;
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: 'Raleway'sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
 /* identical to box height */
 
 letter-spacing: 0.03em;
@@ -29,7 +27,12 @@ letter-spacing: 0.03em;
 }
 /*Site nav*/
 .site-nav .link {
-    color: var(--primary-text-color);
+    color: var(--primary-text-color)
+    font-family: 'Roboto'sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus {
@@ -37,6 +40,15 @@ letter-spacing: 0.03em;
 }
 .site-nav .link.current {
 color: var(--accent-color);
+}
+/*Contact nav*/
+.auth-nav {
+    color: var(--primary-text-color)
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 /*Hero*/
 .hero-title {
