@@ -9,10 +9,20 @@ body {
     background-color:var(--primary-white-color);
     color: var(--primary-text);
     font-family: Roboto,sans-serif;
+    letter-spacing: 0.03em
 }
  /*WebStudio*/
 .logo-link{
     color:var(--accent-color);
+    font-family: Raleway,sans-serif;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
 }
 .logo-header {
     color:var(--title-text-color) ;
