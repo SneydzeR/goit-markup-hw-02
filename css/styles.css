@@ -2,7 +2,7 @@
     --primary-text-color:#757575;
     --title-text-color:#212121;
     --accent-color:#2196F3;
-    --primary-bg-color:#ffffff;
+    --primary-white-color:#ffffff;
 }
 
 body {
@@ -42,10 +42,10 @@ color: var(--accent-color);
 }
 /*Button*/
 .button {
-    color: var(--primary-bg-color);
-    background-color:var(--title-text-color) ;
+    color: var(--primary-white-color);
+    background-color:var(--accent-color) ;
 }
 .button.primary {
     background-color: var(--accent-color);
-    color: var(--primary-bg-color);
+    color: var(--primary-white-color);
 }
