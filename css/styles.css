@@ -3,10 +3,13 @@
     --title-text-color:#212121;
     --accent-color:#2196F3;
     --primary-white-color:#ffffff;
+    --secondary-black-color: #2F303A;
+    --super-blue-color :#188CE8;
+    --fon-button-color : #F5F4FA;
     --main-font: 'Roboto',sans-serif;
     --secondary-font : 'Raleway',sans-serif;
 }
-
+/*body*/
 body {
     font-size: 14px;
     background-color:var(--primary-white-color);
@@ -27,7 +30,8 @@ body {
     color:var(--title-text-color) ;
 }
 /*Site nav*/
-.site-nav .link {
+.site-nav .link,
+.site-nav .list {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -55,16 +59,24 @@ body {
 .contact-nav .link:focus {
     color: var(--accent-color);
 }
+.site-nav .list {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
 .list {
     list-style: none;
 }
 /*Hero*/
 .hero {
-    background: #2F303A;
+    background: var(--secondary-black-color);
 }
 .hero-title {
     color:var(--primary-white-color) ;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.37;
     text-align: center;
@@ -76,7 +88,7 @@ body {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 .features-list .text {
@@ -99,6 +111,14 @@ body {
     line-height: 1.19;
     text-align: center;
 }
+.work-platform {
+    background: var(--primary-white-color) ;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    width: 270px;
+    height: 368px;
+    text-align: center
+}
 .work-list .text{
     color: var(--primary-text-color);
     font-weight: 400;
@@ -114,16 +134,21 @@ body {
     border-radius: 4px;
     border:none;
     font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
 }
 .button-primary:hover, 
 .button-primary:focus {
-    background-color : #188CE8;
+    background-color : var(--super-blue-color);
     color: var(--primary-white-color);
     cursor:pointer;
 }
-   
+.link {
+    cursor:pointer;
+}
 .contact-list {
-    background-color: #2F303A;
+    background-color: var(--secondary-black-color);
 }
 .logo-studio {
     color: var(--primary-white-color);
@@ -150,7 +175,7 @@ body {
     letter-spacing: 0.03em;
 }
 .site-works .link {
-    background-color: #F5F4FA;
+    background-color: var(--fon-button-color);
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
